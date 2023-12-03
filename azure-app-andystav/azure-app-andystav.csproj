@@ -5,6 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_andystav</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/05445bb9-921c-413d-b887-795e6f7ab723/resourceGroups/az-course-rg/providers/microsoft.insights/components/azure-app-andystav</ApplicationInsightsResourceId>
+    <UserSecretsId>ffa0b62a-f913-4ff6-8ef7-21e4b3063764</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
+  </ItemGroup>
 
 </Project>
