@@ -14,7 +14,6 @@ namespace azure_app_andystav.Pages
 
         public void OnGet()
         {
-            throw new Exception("Testing Application Insights");
         }
     }
 
